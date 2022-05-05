@@ -1,0 +1,151 @@
+@import '../../Assets/CSS/global.css';
+
+.corRoteiro{
+    background: #F3F3F3;
+    height: auto;
+}
+.inputs , .inputDescricao{
+    width: 1142px;
+    height: 67px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 10px;
+    font-size: 24px
+}
+.inputDescricao {
+    height: 188px;
+   
+}
+.AlinhamentoLabels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.AlinhamentoInputs{
+    display: flex;
+    justify-content: center;
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+    width: 1130px;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+.btnRoteiroPage{
+    color: #000;
+    background: #F3F3F3;
+    border: 2px solid #416AFB;
+    box-sizing: border-box;
+    border-radius: 16px;
+    width: 248px;
+    height: 45px;
+    font-size: 30px;
+    line-height: 35px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.btnRoteiroPage:hover{
+    border: 2px solid #000;
+    color: #416AFB;;
+}
+.AlinhamentoBtnRoteiro{
+    display: flex;
+    justify-content: space-around;
+    width: 62vh;
+}
+
+.boxP{
+    width: 324px;
+    height: 326px;
+    background: #4776E6;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto; 
+ }
+
+div p{
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.AlinhamentoCentral{
+    width: 793px;
+    height: 326px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+.txtInfo1 , .txtInfo2{
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    width: 710px;
+    height: 203px;
+    display: flex;
+    align-items: center;
+
+}
+.txtInfo2{
+    width: 738px;
+    height: 165px;
+    margin-top: 2%;
+}
+.btnEditar , .btnExcluir , .btnSaiba , .btnEditar2 , .btnExcluir2 , .btnSaiba2{
+    font-size: 24px;
+    line-height: 28px;
+    width: 157px;
+    height: 40px;
+    color: #000000;
+    background: #F3F3F3;
+    border: 2px solid #416AFB;
+    box-sizing: border-box;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btnExcluir , .btnExcluir2{
+    background: #416AFB;
+    color: #FFFFFF;
+    margin-left: 4%;
+}
+.btnSaiba , .btnSaiba2{
+    width: 230px;
+    height: 40px;
+    margin-top: 20px;
+}
+.btnEditar:hover ,  .btnSaiba:hover , .btnEditar2:hover ,  .btnSaiba2:hover{
+    color: #416AFB;
+}
+.btnExcluir:hover , .btnExcluir2:hover{
+    color: #000;
+}
+.saibaMaisBtn1 , .saibaMaisBtn2  {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.btnRoteiros , .btnRoteiros2{
+    display: flex;
+    justify-content: center;
+    width: 52%;
+}
+.btnRoteiros2{
+    margin-top: 3%;
+    width: 49%;
+}
+.AlinhamentoBoxEDiv2 , .AlinhamentoBoxEDiv1{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.AlinhamentoBoxEDiv1{
+    margin-top: 3%;
+}

@@ -1,0 +1,20 @@
+.rodape{ 
+    height: 123px;
+    background-color:#0A0909;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+.txtFooter{
+    text-decoration: none;
+    list-style-type: none;
+}
+.footerIcons{
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
