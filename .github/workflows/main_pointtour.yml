@@ -53,4 +53,4 @@ jobs:
           app-name: 'Pointtour'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F189C5CBC6147AFBECFAF08F4F80D2C }}
-          package: .
+          package: 'build'
